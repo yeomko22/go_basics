@@ -45,7 +45,7 @@ func copyArray() {
 
 func TestArray(t *testing.T) {
 	createArray()
-	//compareEmptyArrayType()
-	//scanArray()
-	//copyArray()
+	compareEmptyArrayType()
+	scanArray()
+	copyArray()
 }

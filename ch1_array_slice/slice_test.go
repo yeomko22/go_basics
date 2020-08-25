@@ -68,8 +68,8 @@ func subSlice() {
 
 func TestSlice(t *testing.T) {
 	createSlice()
-	//addValueToSlice()
-	//copySlice()
-	//sliceCapacity()
-	//subSlice()
+	addValueToSlice()
+	copySlice()
+	sliceCapacity()
+	subSlice()
 }
