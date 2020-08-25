@@ -31,6 +31,6 @@ func functionInsideIf() {
 }
 
 func TestArray(t *testing.T) {
-	//basicIf()
+	basicIf()
 	functionInsideIf()
 }

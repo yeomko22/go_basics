@@ -38,10 +38,10 @@ func conditionInsideCase(num int) {
 }
 
 func TestSwitch(t *testing.T) {
-	//basicSwitch(1)
-	//basicSwitch(2)
-	//multipleCases(1)
-	//multipleCases(2)
+	basicSwitch(1)
+	basicSwitch(2)
+	multipleCases(1)
+	multipleCases(2)
 	conditionInsideCase(4)
 	conditionInsideCase(5)
 	conditionInsideCase(6)

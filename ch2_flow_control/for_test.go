@@ -48,7 +48,7 @@ ERROR2:
 }
 
 func TestFor(t *testing.T) {
-	//basicFor()
-	//nestedForWithLabel()
+	basicFor()
+	nestedForWithLabel()
 	basicGoto()
 }
