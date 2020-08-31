@@ -2,6 +2,7 @@ package ch1_array_slice
 
 import (
 	"fmt"
+	"math"
 	"reflect"
 	"testing"
 )
@@ -43,9 +44,16 @@ func copyArray() {
 	fmt.Println(b)
 }
 
+func initializeArray() {
+	a := [10]int{-1}
+	fmt.Println(a)
+	fmt.Println(math.MaxInt32)
+}
+
 func TestArray(t *testing.T) {
-	createArray()
-	compareEmptyArrayType()
-	scanArray()
-	copyArray()
+	//createArray() math.MaxInt64
+	//compareEmptyArrayType()
+	//scanArray()
+	//copyArray()
+	initializeArray()
 }

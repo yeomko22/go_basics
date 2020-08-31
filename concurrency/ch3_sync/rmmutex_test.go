@@ -1,4 +1,4 @@
-package ch2_sync
+package ch3_sync
 
 import (
 	"fmt"
