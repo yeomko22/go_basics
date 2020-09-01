@@ -7,7 +7,7 @@ import (
 )
 
 // 재귀를 이용해 여러 고루틴을 하나로 결합
-// 어느 하나라도 닫히거나 데이터가 쓰여지면 모든 체널이 닫히도록 할 수 있는 패
+// 어느 하나라도 닫히거나 데이터가 쓰여지면 모든 체널이 닫히도록 할 수 있는 패턴
 func recursion() {
 	var or func(channels ...<-chan interface{}) <-chan interface{}
 	or = func(channels ...<-chan interface{}) <-chan interface{} {
